@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5221548D-9A57-4F24-A701-7D848210E205</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TinderSimpleSwipeCards</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4DC6A076-AF0E-4188-8788-77F82C3111A0</key>
+		<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TinderSimpleSwipeCards.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4DC6A076-AF0E-4188-8788-77F82C3111A0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4DC6A076-AF0E-4188-8788-77F82C3111A0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4DC6A076-AF0E-4188-8788-77F82C3111A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TinderSimpleSwipeCards</string>
+		</dict>
+	</array>
+</dict>
+</plist>
