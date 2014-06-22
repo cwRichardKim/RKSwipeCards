@@ -3,7 +3,9 @@ TinderSimpleSwipeCards
 
 The basics of a Tinder-like swipeable cards interface influenced by http://guti.in/articles/creating-tinder-like-animations/
 
-This is meant to be taken and built off of, not as a simple drag and drop solution
+### THIS IS FOR LEARNING PURPOSES, NOT A POD OR A DROP-IN SOLUTION
+
+This is meant to be taken and built off of, not as a simple drag and drop solution.  For a pod/drag and drop solution, see https://github.com/modocache/MDCSwipeToChoose
 
 Demo:
 ![alt tag](http://i.imgur.com/NwsgUcr.gif)
