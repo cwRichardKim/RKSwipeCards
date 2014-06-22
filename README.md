@@ -1,14 +1,13 @@
 TinderSimpleSwipeCards
 ======================
+### THIS IS FOR LEARNING PURPOSES, NOT A POD OR A DROP-IN SOLUTION
 
 The basics of a Tinder-like swipeable cards interface influenced by http://guti.in/articles/creating-tinder-like-animations/
-
-### THIS IS FOR LEARNING PURPOSES, NOT A POD OR A DROP-IN SOLUTION
 
 This is meant to be taken and built off of, not as a simple drag and drop solution.  For a pod/drag and drop solution, see https://github.com/modocache/MDCSwipeToChoose
 
 Demo:
-![alt tag](http://i.imgur.com/NwsgUcr.gif)
+
 
 Features:
 * Swipe cards left or right to call two separate actions
@@ -17,7 +16,22 @@ Features:
 * Very easily customizeable
 
 
-Customizeability:
+Customizeability Examples:
+
+action margin (the distance from the middle required for an action to take place)
+
+![alt tag](http://i.imgur.com/krDNpR0.gif)  ![alt tag](http://i.imgur.com/W4bIRkc.gif)
+
+squeeze ratio (limit, strenght)
+
+![alt tag](http://i.imgur.com/3yk6aiS.gif)  ![alt tag](http://i.imgur.com/IIFVkm4.gif)
+
+rotation (strength, limit, angle)
+
+![alt tag](http://i.imgur.com/j1ISIq5.gif)  ![alt tag](http://i.imgur.com/PQYs4sH.gif)
+
+### + More!
+
 
 in DraggableView.h
 
