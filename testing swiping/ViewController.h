@@ -31,9 +31,14 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "DraggableView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DraggableViewDelegate>
 
-@property (retain,nonatomic)NSArray* cardsArray;
+//methods called in DraggableView
+-(void)cardSwipedLeft:(UIView *)card;
+-(void)cardSwipedRight:(UIView *)card;
+
+@property (retain,nonatomic)NSArray* allCards;
 
 @end
