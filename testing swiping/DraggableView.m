@@ -18,6 +18,10 @@
     CGFloat xFromCenter;
     CGFloat yFromCenter;
 }
+
+//delegate is instance of ViewController
+@synthesize delegate;
+
 @synthesize panGestureRecognizer;
 @synthesize information;
 @synthesize overlayView;
@@ -145,6 +149,9 @@
                      animations:^{
                          self.center = finishPoint;
                      }];
+    
+    [delegate cardSwipedRight:self];
+    
     NSLog(@"YES");
 }
 
@@ -156,6 +163,9 @@
                      animations:^{
                          self.center = finishPoint;
                      }];
+    
+    [delegate cardSwipedLeft:self];
+    
     NSLog(@"NO");
 }
 
