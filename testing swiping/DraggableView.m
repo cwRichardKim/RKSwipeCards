@@ -5,6 +5,7 @@
 //  Created by Richard Kim on 5/21/14.
 //  Copyright (c) 2014 Richard Kim. All rights reserved.
 //
+//  @cwRichardKim for updates and requests
 
 #define ACTION_MARGIN 80 //%%% distance from center where the action applies. Higher = swipe further in order for the action to be called
 #define SCALE_STRENGTH 4 //%%% how quickly the card shrinks. Higher = slower shrinking
