@@ -6,7 +6,11 @@ The basics of a Tinder-like swipeable cards interface influenced by http://guti.
 
 This is meant to be taken and built off of, not as a simple drag and drop solution.  For a pod/drag and drop solution, see https://github.com/modocache/MDCSwipeToChoose
 
-Demo:
+###Get Updates:
+[follow me on twitter](https://twitter.com/cwRichardKim).  I'm not a bigger twitter-er, but I do use it for updates
+
+
+###Demo:
 
 ![alt tag](http://i.imgur.com/NwsgUcr.gif)
 
@@ -17,7 +21,7 @@ Features:
 * Very easily customizeable
 
 
-Customizeability Examples:
+##Customizeability Examples:
 
 action margin (the distance from the middle required for an action to take place)
 
