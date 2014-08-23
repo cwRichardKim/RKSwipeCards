@@ -40,6 +40,6 @@
 -(void)cardSwipedLeft:(UIView *)card;
 -(void)cardSwipedRight:(UIView *)card;
 
-@property (retain,nonatomic)NSArray* allCards;
+@property (retain,nonatomic)NSArray* allCardLabels;
 
 @end

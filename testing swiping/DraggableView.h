@@ -50,4 +50,7 @@
 @property (nonatomic,strong)OverlayView* overlayView;
 @property (nonatomic,strong)UILabel* information; //%%% a placeholder for any card-specific information
 
+-(void)leftClickAction;
+-(void)rightClickAction;
+
 @end

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D7D759C6-FB5A-4846-8BF6-68ECA0A83E21</string>
+	<string>FA486F28-20CE-4F09-8DC8-E2237D17CEA7</string>
 	<key>IDESourceControlProjectName</key>
 	<string>testing swiping</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>564F6572-5727-4631-AE3E-3DCDC4A58664</key>
-		<string>https://github.com/jaredmoskowitz/TinderSimpleSwipeCards.git</string>
+		<key>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</key>
+		<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>testing swiping.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>564F6572-5727-4631-AE3E-3DCDC4A58664</key>
+		<key>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jaredmoskowitz/TinderSimpleSwipeCards.git</string>
+	<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>564F6572-5727-4631-AE3E-3DCDC4A58664</string>
+	<string>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>564F6572-5727-4631-AE3E-3DCDC4A58664</string>
+			<string>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TinderSimpleSwipeCards</string>
 		</dict>

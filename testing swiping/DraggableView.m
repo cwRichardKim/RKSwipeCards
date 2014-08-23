@@ -7,7 +7,7 @@
 //
 //  @cwRichardKim for updates and requests
 
-#define ACTION_MARGIN 80 //%%% distance from center where the action applies. Higher = swipe further in order for the action to be called
+#define ACTION_MARGIN 120 //%%% distance from center where the action applies. Higher = swipe further in order for the action to be called
 #define SCALE_STRENGTH 4 //%%% how quickly the card shrinks. Higher = slower shrinking
 #define SCALE_MAX .93 //%%% upper bar for how much the card shrinks. Higher = shrinks less
 #define ROTATION_MAX 1 //%%% the maximum rotation allowed in radians.  Higher = card can keep rotating longer
@@ -38,7 +38,7 @@
         information.text = @"no info given";
         information.textColor = [UIColor whiteColor];
         
-        self.backgroundColor = [UIColor colorWithRed:0.22 green:0.24 blue:0.27 alpha:1];
+        self.backgroundColor = [UIColor whiteColor];
         panGestureRecognizer = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(beingDragged:)];
         
         [self addGestureRecognizer:panGestureRecognizer];
@@ -54,9 +54,9 @@
 -(void)setupView
 {
     self.layer.cornerRadius = 4;
-    self.layer.shadowRadius = 6;
-    self.layer.shadowOpacity = 0.5;
-    self.layer.shadowOffset = CGSizeMake(3, 3);
+    self.layer.shadowRadius = 3;
+    self.layer.shadowOpacity = 0.2;
+    self.layer.shadowOffset = CGSizeMake(1, 1);
 }
 
 /*
@@ -133,7 +133,7 @@
     } else if (xFromCenter < -ACTION_MARGIN) {
         [self leftAction];
     } else { //%%% resets the card
-        [UIView animateWithDuration:0.2
+        [UIView animateWithDuration:0.3
                          animations:^{
                              self.center = self.originalPoint;
                              self.transform = CGAffineTransformMakeRotation(0);
@@ -146,9 +146,11 @@
 -(void)rightAction
 {
     CGPoint finishPoint = CGPointMake(500, 2*yFromCenter +self.originalPoint.y);
-    [UIView animateWithDuration:0.15
+    [UIView animateWithDuration:0.3
                      animations:^{
                          self.center = finishPoint;
+                     }completion:^(BOOL complete){
+                         [self removeFromSuperview];
                      }];
     
     [delegate cardSwipedRight:self];
@@ -160,14 +162,50 @@
 -(void)leftAction
 {
     CGPoint finishPoint = CGPointMake(-500, 2*yFromCenter +self.originalPoint.y);
-    [UIView animateWithDuration:0.15
+    [UIView animateWithDuration:0.3
                      animations:^{
                          self.center = finishPoint;
+                     }completion:^(BOOL complete){
+                         [self removeFromSuperview];
                      }];
     
     [delegate cardSwipedLeft:self];
     
     NSLog(@"NO");
 }
+
+-(void)rightClickAction
+{
+    CGPoint finishPoint = CGPointMake(600, self.center.y);
+    [UIView animateWithDuration:0.3
+                     animations:^{
+                         self.center = finishPoint;
+                         self.transform = CGAffineTransformMakeRotation(1);
+                     }completion:^(BOOL complete){
+                         [self removeFromSuperview];
+                     }];
+    
+    [delegate cardSwipedRight:self];
+    
+    NSLog(@"YES");
+}
+
+-(void)leftClickAction
+{
+    CGPoint finishPoint = CGPointMake(-600, self.center.y);
+    [UIView animateWithDuration:0.3
+                     animations:^{
+                         self.center = finishPoint;
+                         self.transform = CGAffineTransformMakeRotation(-1);
+                     }completion:^(BOOL complete){
+                         [self removeFromSuperview];
+                     }];
+    
+    [delegate cardSwipedLeft:self];
+    
+    NSLog(@"NO");
+}
+
+
 
 @end
