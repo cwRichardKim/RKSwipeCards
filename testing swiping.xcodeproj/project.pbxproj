@@ -23,6 +23,7 @@
 		99B7AEC4192D50D500C1B49C /* testing_swipingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AEC3192D50D500C1B49C /* testing_swipingTests.m */; };
 		99B7AECF192D513800C1B49C /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AECE192D513800C1B49C /* DraggableView.m */; };
 		99B7AED2192E914500C1B49C /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AED1192E914500C1B49C /* OverlayView.m */; };
+		99FDDE7919A992F200371454 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDDE7819A992F200371454 /* DraggableViewBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		99B7AECE192D513800C1B49C /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
 		99B7AED0192E914500C1B49C /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		99B7AED1192E914500C1B49C /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		99FDDE7719A992F200371454 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		99FDDE7819A992F200371454 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				99B7AEAA192D50D500C1B49C /* Main.storyboard */,
 				99B7AEAD192D50D500C1B49C /* ViewController.h */,
 				99B7AEAE192D50D500C1B49C /* ViewController.m */,
+				99FDDE7719A992F200371454 /* DraggableViewBackground.h */,
+				99FDDE7819A992F200371454 /* DraggableViewBackground.m */,
 				99B7AECD192D513800C1B49C /* DraggableView.h */,
 				99B7AECE192D513800C1B49C /* DraggableView.m */,
 				99B7AED0192E914500C1B49C /* OverlayView.h */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FDDE7919A992F200371454 /* DraggableViewBackground.m in Sources */,
 				99B7AEAF192D50D500C1B49C /* ViewController.m in Sources */,
 				99B7AED2192E914500C1B49C /* OverlayView.m in Sources */,
 				99B7AEA9192D50D500C1B49C /* AppDelegate.m in Sources */,
@@ -468,6 +474,7 @@
 				99B7AEC9192D50D500C1B49C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B7AECA192D50D500C1B49C /* Build configuration list for PBXNativeTarget "testing swipingTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				99B7AECC192D50D500C1B49C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

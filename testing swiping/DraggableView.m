@@ -33,18 +33,23 @@
     if (self) {
         [self setupView];
         
-        //%%% placeholder stuff, replace with card-specific information
-        information = [[UILabel alloc]initWithFrame:CGRectMake(97, 50, 200, 100)];
+#warning placeholder stuff, replace with card-specific information {
+        information = [[UILabel alloc]initWithFrame:CGRectMake(0, 50, self.frame.size.width, 100)];
         information.text = @"no info given";
-        information.textColor = [UIColor whiteColor];
+        [information setTextAlignment:NSTextAlignmentCenter];
+        information.textColor = [UIColor blackColor];
         
         self.backgroundColor = [UIColor whiteColor];
+#warning placeholder stuff, replace with card-specific information }
+        
+        
+        
         panGestureRecognizer = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(beingDragged:)];
         
         [self addGestureRecognizer:panGestureRecognizer];
         [self addSubview:information];
         
-        overlayView = [[OverlayView alloc]initWithFrame:self.bounds];
+        overlayView = [[OverlayView alloc]initWithFrame:CGRectMake(self.frame.size.width/2-100, 0, 100, 100)];
         overlayView.alpha = 0;
         [self addSubview:overlayView];
     }
