@@ -12,7 +12,7 @@ This is meant to be taken and built off of, not as a simple drag and drop soluti
 
 ###Demo:
 
-![alt tag](http://i.imgur.com/NwsgUcr.gif)
+![alt tag](http://imgur.com/4bYw12e.gif)
 
 Features:
 * Swipe cards left or right to call two separate actions
