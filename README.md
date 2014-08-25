@@ -97,5 +97,5 @@ __Loading Data__
 * I used exampleCardLabels as an example of how to load data, but feel free to change that
 
 __Presenting Data in View__
-* Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos appear)
+* Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos in custom UIImageViews)
 * to access any card directly, use [loadedCards objectAtIndex:yourIndex];  For example, the card that is currently visible is at [loadedCards firstObject];
