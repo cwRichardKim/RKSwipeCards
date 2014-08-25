@@ -82,10 +82,20 @@ __Setup as UIView ontop of View Controller__
       draggableBackground.alpha = 1;
   }];
   ```
+##Presenting Your Data
+__Loading Data__
+* edit -(void)loadCards in DraggableViewBackground.m to dictate what information is loaded and how
+* "allCards" holds all the cards you want to show, "loadedCards" only shows the first few so that it doesn't load everything at once.
+* if card data is loaded after initWithFrame, then make sure the data is included in your custom data array (currently "exampleCardLabels") at the index: yourIndex and then write the code:
+
+  ``` objc
+  DraggableView* newCard = [self createDraggableViewWithDataAtIndex:yourIndex];
+  [allCards addObject:newCard];
+  ```
   
-__Load Data__
-* in DraggableViewBackground.m, you want to edit -(DraggableView *)createDraggableViewAtIndex:(NSInteger)index so that the cards pull information from the right place in the format that you want
-* allCards holds all the cards you want to show, loadedCards only shows the first few so that it doesn't load everything at once.
+  whenever you need to.  
 * I used exampleCardLabels as an example of how to load data, but feel free to change that
-* or directly add cards into the allCards array.  As long as there are cards in there, the view will continue to show them.
+
+__Presenting Data in View__
+* Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos appear)
 * to access any card directly, use [loadedCards objectAtIndex:yourIndex];  For example, the card that is currently visible is at [loadedCards firstObject];
