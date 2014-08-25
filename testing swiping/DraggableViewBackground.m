@@ -44,7 +44,7 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 //%%% sets up the extra buttons on the screen
 -(void)setupView
 {
-    //%%%TODO: change these to ratios
+#warning customize all of this.  These are just place holders to make it look pretty
     self.backgroundColor = [UIColor colorWithRed:.92 green:.93 blue:.95 alpha:1]; //the gray background colors
     menuButton = [[UIButton alloc]initWithFrame:CGRectMake(17, 34, 22, 15)];
     [menuButton setImage:[UIImage imageNamed:@"menuButton"] forState:UIControlStateNormal];
@@ -63,8 +63,10 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 }
 
 #warning include own card customization here!
-//%%% creates a card and returns it.  This should be customized to fit your needs
--(DraggableView *)createDraggableViewAtIndex:(NSInteger)index
+//%%% creates a card and returns it.  This should be customized to fit your needs.
+// use "index" to indicate where the information should be pulled.  If this doesn't apply to you, feel free
+// to get rid of it (eg: if you are building cards from data from the internet)
+-(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index
 {
     DraggableView *draggableView = [[DraggableView alloc]initWithFrame:CGRectMake((self.frame.size.width - CARD_WIDTH)/2, (self.frame.size.height - CARD_HEIGHT)/2, CARD_WIDTH, CARD_HEIGHT)];
     draggableView.information.text = [exampleCardLabels objectAtIndex:index]; //%%% placeholder for card-specific information
@@ -81,7 +83,7 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
         
         //%%% loops through the exampleCardsLabels array to create a card for each label.  This should be customized by removing "exampleCardLabels" with your own array of data
         for (int i = 0; i<[exampleCardLabels count]; i++) {
-            DraggableView* newCard = [self createDraggableViewAtIndex:i];
+            DraggableView* newCard = [self createDraggableViewWithDataAtIndex:i];
             [allCards addObject:newCard];
             
             if (i<numLoadedCardsCap) {
