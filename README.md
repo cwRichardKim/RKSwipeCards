@@ -1,6 +1,6 @@
 TinderSimpleSwipeCards
 ======================
-### This is for maximum Customizability and / or learning purposes, not a pod or drop-in solution
+### This is for maximum customizability and / or learning purposes, not a pod or drop-in solution
 
 The basics of a Tinder-like swipeable cards interface influenced by http://guti.in/articles/creating-tinder-like-animations/
 
