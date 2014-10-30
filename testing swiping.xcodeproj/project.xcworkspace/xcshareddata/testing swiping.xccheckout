@@ -10,29 +10,29 @@
 	<string>testing swiping</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</key>
+		<key>5FA3FC38AA2426C6B4D765831317071D38AFC7E0</key>
 		<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>testing swiping.xcodeproj/project.xcworkspace</string>
+	<string>testing swiping.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</key>
+		<key>5FA3FC38AA2426C6B4D765831317071D38AFC7E0</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/cwrichardkim93/TinderSimpleSwipeCards.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</string>
+	<string>5FA3FC38AA2426C6B4D765831317071D38AFC7E0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D8E20BF4-1E98-40C7-A9FA-45DC0D121F6E</string>
+			<string>5FA3FC38AA2426C6B4D765831317071D38AFC7E0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TinderSimpleSwipeCards</string>
 		</dict>
