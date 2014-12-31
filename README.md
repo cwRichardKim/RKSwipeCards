@@ -1,5 +1,7 @@
 TinderSimpleSwipeCards
 ======================
+![alt tag](http://imgur.com/4bYw12e.gif)
+
 ### This is for maximum customizability and / or learning purposes, not a pod or drop-in solution
 
 The basics of a Tinder-like swipeable cards interface influenced by http://guti.in/articles/creating-tinder-like-animations/
@@ -11,10 +13,6 @@ This is meant to be taken and built off of, not as a simple drag and drop soluti
 
 ###Relevant Article for deciding how to implement swipe cards into your app
 https://medium.com/@cwRichardKim/adding-tinder-esque-cards-to-your-iphone-app-4047967303d1
-
-###Demo:
-
-![alt tag](http://imgur.com/4bYw12e.gif)
 
 ###On top of your current View Controllers
 ![alt tag](http://imgur.com/wXPnfN2.gif)
