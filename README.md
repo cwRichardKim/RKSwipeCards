@@ -99,3 +99,7 @@ __Loading Data__
 __Presenting Data in View__
 * Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos in custom UIImageViews)
 * to access any card directly, use [loadedCards objectAtIndex:yourIndex];  For example, the card that is currently visible is at [loadedCards firstObject];
+
+### Areas for Future Improvement / Involvement
+* The repo potentially violates the MVC model by having to much controller functionality in a view (DraggableViewBackground)
+* Improved naming (while maintaining legacy and / or easy directions for change)
