@@ -100,6 +100,11 @@ __Presenting Data in View__
 * Customize the presentation of your data in -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index in DraggableViewBackground.m (eg: make certain data appear on labels or photos in custom UIImageViews)
 * to access any card directly, use [loadedCards objectAtIndex:yourIndex];  For example, the card that is currently visible is at [loadedCards firstObject];
 
+### Looking for certain features?
+* up/down-swipe: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
+* card state: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
+* delegate example: https://github.com/cwRichardKim/TinderSimpleSwipeCards/issues/12
+
 ### Areas for Future Improvement / Involvement
-* The repo potentially violates the MVC model by having to much controller functionality in a view (DraggableViewBackground)
+* Too much happening in a view (DraggableViewBackground)
 * Improved naming (while maintaining legacy and / or easy directions for change)
