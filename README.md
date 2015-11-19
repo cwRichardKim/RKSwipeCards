@@ -11,6 +11,8 @@ This is meant to be taken and built off of, not as a simple drag and drop soluti
 ###Updates, Questions, and Requests
 [twitter](https://twitter.com/cwRichardKim) <--- I am a very light twitterer, so I wont spam you
 
+or [Support](http://cwrichardkim.com)
+
 ###Relevant Article for deciding how to implement swipe cards into your app
 https://medium.com/@cwRichardKim/adding-tinder-esque-cards-to-your-iphone-app-4047967303d1
 
