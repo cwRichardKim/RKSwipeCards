@@ -8,15 +8,15 @@ The basics of a Tinder-like swipeable cards interface influenced by http://guti.
 
 This is meant to be taken and built off of, not as a simple drag and drop solution.  New developers are often forced to use dependencies they don't understand and can't customize.  This is the opposite.  I've fully explained exactly how this works in detailed comments so that you can take it apart and customize it at will.  For a pod/drag and drop solution, see https://github.com/modocache/MDCSwipeToChoose
 
-###Updates, Questions, and Requests
+### Updates, Questions, and Requests
 [twitter](https://twitter.com/cwRichardKim) <--- I am a very light twitterer, so I wont spam you
 
 or [Support](http://cwrichardkim.com)
 
-###Relevant Article for deciding how to implement swipe cards into your app
+### Relevant Article for deciding how to implement swipe cards into your app
 https://medium.com/@cwRichardKim/adding-tinder-esque-cards-to-your-iphone-app-4047967303d1
 
-###On top of your current View Controllers
+### On top of your current View Controllers
 ![alt tag](http://imgur.com/wXPnfN2.gif)
 
 Features:
@@ -26,7 +26,7 @@ Features:
 * Very easily customizeable
 
 
-##Customizeability Examples:
+## Customizeability Examples:
 
 action margin (the distance from the middle required for an action to take place)
 
@@ -55,7 +55,7 @@ in DraggableView.h
 Each component is also explained thoroughly, so it is highly customizeable in many ways
 
 
-#How to use
+# How to use
 
 __files__
 * **ViewController.h/m**: example view controller (not necessary)
@@ -84,7 +84,7 @@ __Setup as UIView ontop of View Controller__
       draggableBackground.alpha = 1;
   }];
   ```
-##Presenting Your Data
+## Presenting Your Data
 __Loading Data__
 * edit -(void)loadCards in DraggableViewBackground.m to dictate what information is loaded and how
 * "allCards" holds all the cards you want to show, "loadedCards" only shows the first few so that it doesn't load everything at once.
